@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="team-info">
+                <h3>HOME</h3>
+                <p id="home-el">0</p>
+                <div class="btn-area">
+                    <button onclick="addPointsHome(1)">+1</button>
+                    <button onclick="addPointsHome(2)">+2</button>
+                    <button onclick="addPointsHome(3)">+3</button>
+                </div>
+            </div>
+            <div id="middle-area">
+                <p id="timer-el">12:00</p>
+                <div id="period-area">
+                    <h4>PERIOD</h4>
+                    <p id="period-el">0</p>
+                </div>
+            </div>
+            <div class="team-info">
+                <h3>GUEST</h3>
+                <p id="guest-el">0</p>
+                <div class="btn-area">
+                    <button onclick="addPointsGuest(1)">+1</button>
+                    <button onclick="addPointsGuest(2)">+2</button>
+                    <button onclick="addPointsGuest(3)">+3</button>
+                </div>
+            </div>
+        </div>
+        <button class="new-btn" id="timer-btn" onclick="newPeriod()">START CLOCK</button>
+        <button class="new-btn" onclick="newGame()">NEW GAME</button>
+        <script src="index.js"></script>
+    </body>
+</html>

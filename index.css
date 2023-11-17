@@ -1,0 +1,96 @@
+body {
+    margin: auto;
+    max-width: 600px;
+    background: #1B244A;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: CursedTimerUlil;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    color: #eee;
+}
+
+.team-info {
+    text-align: center;
+    width: 155px;
+    margin: 25px 40px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+p {
+    background: #080001;
+    border: 5px solid #080001;
+    border-radius: 5px;
+    width: 145px;
+    color: #F94F6D;
+    font-family: CursedTimerULiL;
+    font-size: 90px;
+    font-weight: 400;
+    padding-top: 15px;
+    margin: 20px 0 25px 0;
+}
+
+.btn-area {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    background: #1B244A;
+    color: #9AABD8;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.new-btn {
+    width: 150px;
+    margin: 0 5px 25px 5px;
+}
+
+#middle-area {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#period-area {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#timer-el {
+    width: 200px;
+    font-size: 60px;
+    padding-top: 10px;
+    
+}
+
+#period-el {
+    margin: 10px auto;
+    width: 45px;
+    font-size: 60px;
+    padding-top: 10px;
+    color: #34D399;
+}
